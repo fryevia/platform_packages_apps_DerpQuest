@@ -29,6 +29,14 @@
         android:title="@string/status_bar_toggle_brightness" 
         android:summary="@string/status_bar_toggle_brightness_summary"
         android:defaultValue="false" />
+    
+    <com.derpquest.settings.preference.SystemSettingMasterSwitchPreference
+       
+<Preference
+        android:key="screen_off_anim"
+        android:fragment="com.derpquest.settings.fragments.ScreenOffAnim"
+        android:title="@string/screen_off_animation_title"
+        android:summary="@string/screen_off_animation_summary" />
 
     <PreferenceCategory
         android:key="aspect_ratio_category"
