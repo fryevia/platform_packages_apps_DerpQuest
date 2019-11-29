@@ -46,7 +46,7 @@ private ListPreference mScreenOffAnimation;
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        addPreferencesFromResource(R.xml.evolution_settings_screen_off_anim);
+        addPreferencesFromResource(R.xml.derpquest_settings_screen_off_anim);
 
         ContentResolver resolver = getActivity().getContentResolver();
 
